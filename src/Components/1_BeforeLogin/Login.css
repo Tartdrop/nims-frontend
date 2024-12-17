@@ -1,0 +1,241 @@
+.font-link {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+  }
+
+.login-all-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+    gap: 140px;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 8%;
+    justify-content: center;
+    align-items: center;   
+    width: 470px;
+    height: 700px;
+    background: #ffffffb5;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img{
+    margin-top: 7px;
+    margin-bottom: -7px;
+    width: 382px;
+}
+.login-em-pass{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.login-input input{
+    height: 50px;
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #004e65;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.login-input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 408px;
+    height: 70px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 4px solid #95CFE1;
+}
+
+.login-input input[type="password"]::-ms-reveal {
+    display: none;
+}
+
+.login-input input::placeholder {
+    color:#004d65a3;
+}
+
+.eyecon {
+    margin-left: -30px;
+    margin-right: -20px;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 45px;
+}
+
+#password {
+    width: 100%;
+}
+
+.eyecon button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.eyecon img{
+    margin-top: 5px;
+    width: 45px;
+}
+
+.login-button{
+    margin: 20px;
+    margin-top: 23px;
+}
+
+.login-button button{
+    border: none;
+    transition: color 0.3s ease, 
+        background 0.3s ease, 
+}
+
+.login-button button:hover{
+    color: #2B9DC1;
+    background: #fff;
+    border: 4px solid #2B9DC1
+}
+
+.text-button{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 412px;
+    height: 70px;
+    color: #fff;
+    background: #2B9DC1;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.login-last-row-text {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.button-text {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B9DC1;
+    margin-bottom: 18px;
+    padding: 5px 10px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+.button-text::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #2B9DC1; /* Color of underline */
+    left: 0;
+    bottom: 0;
+    transition: color 0.3s ease, width 0.3s ease;
+}
+
+.button-text:hover {
+    color: #004e65;
+}
+
+.button-text:hover::after {
+    background-color: #004e65;
+    width: 100%; /* Expand underline width on hover */
+}
+
+
+.all-right-first-row {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.all-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.all-right-second-row {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-top: -70px;
+}
+
+.N,.I,.M,.S {
+    font-size: 115px;
+}
+
+.spacing {
+    color: #ffffff00;
+    margin: 0 5px;
+}
+
+.laboratory,.services{
+    font-size: 60px;
+    margin-bottom: -5px;
+    padding-bottom: 38px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.all-right-third-row {
+    margin-top: -40px;
+}
+
+.all-right-third-row p{
+    padding: 20px 30px;
+    width: 870px;
+    background: #ffffffb5;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    border-radius: 12px;
+}
+
+.center::after {
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+
+.center:hover::after{
+    transform: scale(1,2);
+}

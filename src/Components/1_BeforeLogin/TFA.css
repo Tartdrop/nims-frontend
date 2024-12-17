@@ -1,0 +1,188 @@
+.font-link {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+  }
+
+.tfa-all-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+    gap: 140px;
+    caret-color: transparent;
+}
+
+.tfa-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 8%;
+    justify-content: center;
+    align-items: center;   
+    width: 470px;
+    height: 700px;
+    background: #ffffffb5;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.t-c-container{
+    color:#2B9DC1;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 290px;
+    margin-left: 30px;
+}
+
+.t-c-c-title {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    margin-bottom: -20px;
+}
+
+.t-c-c-text {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    padding-top: 30px;
+    margin-bottom: -20px;
+    margin-right: 100px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.logo img{
+    width: 382px;
+}
+.tfa-email{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.tfa-input input{
+    caret-color: auto;
+    height: 50px;
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #004e65;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.tfa-input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 408px;
+    height: 70px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 4px solid #95CFE1;
+}
+
+.tfa-input input[type="password"]::-ms-reveal {
+    display: none;
+}
+
+.tfa-input input::placeholder {
+    color:#004d65a3;
+}
+
+.eyecon {
+    margin-left: -30px;
+    margin-right: -20px;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 45px;
+}
+
+#password {
+    width: 100%;
+}
+
+.eyecon button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.eyecon img{
+    margin-top: 5px;
+    width: 45px;
+}
+
+.reset-button{
+    margin: 20px;
+}
+
+.reset-button button{
+    border: none;
+}
+
+.tfa-last-row-text {
+    display: flex;
+}
+
+.tfa-text {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B9DC1;
+    margin-bottom: 18px;
+    padding: 5px 10px;
+}
+
+.tfa-text:hover {
+    color:#ffffff;
+    border-radius: 12px;
+    background: #2B9DC1;
+}
+
+.tfa-first-row {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    color: white;
+}
+
+.tfa-second-row {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-top: -70px;
+}
+
+.tfa-third-row {
+    margin-top: -40px;
+}
+
+.tfa-third-row p{
+    padding: 20px 30px;
+    width: 870px;
+    background: #ffffffb5;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    border-radius: 15px;
+}

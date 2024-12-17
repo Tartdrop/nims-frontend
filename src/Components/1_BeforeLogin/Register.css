@@ -1,0 +1,403 @@
+.font-link {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+  }
+
+.register-all-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5vh;
+    gap: 140px;
+}
+
+.registration {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #004e65;
+    padding-top: 29px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;   
+    width: 1257px;
+    height: 800px;
+    background: #ffffffb5;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.label-container-left {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: #2B9DC1;
+    font-size: 16px;
+}
+
+.label-container-right {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: #2B9DC1;
+    font-size: 16px;
+}
+
+.l-c-label {
+    padding-left: 12px;
+    color: #2B9DC1;
+}
+
+.email input, .password input, .retype-password input, .company-name input, .username input{
+    height: 50px;
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #004e65;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.first-name input{
+    height: 50px;
+    width: 190px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #004e65;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.mi input{
+    text-align: center;
+    height: 50px;
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #004e65;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.last-name input{
+    height: 50px;
+    width: 120px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #004e65;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.lto-number input{
+    height: 50px;
+    width: 160px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #004e65;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.contact-number input, .cli-class-container input[type="text"]{
+    height: 50px;
+    width: 220px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #004e65;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.email, .password, .retype-password, .company-name, .username {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 459px;
+    height: 51px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 4px solid #95CFE1;
+}
+
+.register-input-first-row, .register-input-third-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-input-third-row {
+    gap: 13px;
+}
+
+.first-name {
+    width: 221px;
+    height: 51px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 4px solid #95CFE1;
+}
+
+.mi {
+    width: 44px;
+    height: 51px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 4px solid #95CFE1;
+}
+
+.last-name {
+    width: 156px;
+    height: 51px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 4px solid #95CFE1;
+}
+
+.lto-number{
+    width: 188px;
+    height: 51px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 4px solid #95CFE1;
+}
+
+.contact-number{
+    width: 249px;
+    height: 51px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 4px solid #95CFE1;
+}
+
+.password input::-ms-reveal, .retype-password input::-ms-reveal{
+    display: none;
+}
+
+.password input::placeholder, .retype-password input::placeholder {
+    color:#2B9DC1;
+}
+
+.eyecon-register {
+    margin-left: -30px;
+    margin-right: -20px;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 45px;
+}
+
+#password, #retype-password {
+    width: 100%;
+}
+
+.eyecon-register button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.eyecon-register img{
+    margin-top: 10px;
+    width: 45px;
+} 
+
+.register-last-row-text {
+    display: flex;
+}
+
+.register-text {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B9DC1;
+    margin-bottom: 18px;
+    padding: 5px 10px;
+}
+
+.register-text:hover {
+    color:#ffffff;
+    border-radius: 12px;
+    background: #2B9DC1;
+}
+
+.register-first-row {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    color: white;
+}
+
+.register-second-row {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-top: -70px;
+}
+
+.register-last-row-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-all-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.cli-class {
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    height: 370px;
+    border: 4px solid #95CFE1;
+    border-radius: 12px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.cli-class-both {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 35px;
+}
+
+.cli-class-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.cli-class-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.cli-class-others {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.cli-class-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.cli-class-container input[type="text"] {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    width: 300px;
+    height: 35px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 3px solid #95CFE1;
+} 
+
+input[type="radio"] {
+    width: 20px; /* Adjust the size of the radio button */
+    height: 20px;
+}
+
+input[type="radio"]:checked {
+    accent-color: #2B9DC1 ; /* Changes color when checked */
+}
+
+.register-note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+    color: #004e65;
+    opacity: 30%;
+    transition: opacity 0.3s ease;
+}
+
+.register-note:hover {
+    opacity: 100%;
+}
+
+.register-button{
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.register-button button{
+    border: none;
+    transition: color 0.3s ease, 
+        background 0.3s ease, 
+}
+
+.register-button button:hover{
+    color: #2B9DC1;
+    background: #fff;
+    border: 4px solid #2B9DC1
+}
+
+.center::after {
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+
+.center:hover::after{
+    transform: scale(1,2);
+}

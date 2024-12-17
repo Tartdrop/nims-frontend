@@ -1,0 +1,329 @@
+.forrelease-all-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.forrelease-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 805px;
+    margin-top: 7vh;
+    border-radius: 10px;
+    background-color: #ffffffb5;
+}
+
+.forrelease-title {
+    display: flex;
+    align-items:baseline;
+    font-weight: 700;
+    font-size: 64px;
+    color: #004e65;
+}
+
+.forrelease-popup {
+    display: inline-block;
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 52px;
+    font-weight: bold;
+    position: relative;
+}
+
+.popup-container {
+    position: absolute;
+    top: 3px;
+    right: -210px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(-10px); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none; 
+    font-size: 14px;
+    width: 150px;
+}
+
+.forrelease-popup:hover .popup-container {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+
+.forrelease-1st-container {
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 616px;
+    margin-top: 20px;
+    flex-direction: column;
+    cursor: grab;
+    gap: 20px;
+}
+
+.empty-3rd-container {
+    width: 1200px;
+    height: 525px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.empty-2nd-container img {
+    margin-top: -10px;
+}
+
+.forrelease-1st-container-column-row {
+    display: flex;
+    gap: 10px;
+}
+
+.forrelease-1st-container-column-row input {
+    text-align: center;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 100px;
+    border: none;
+    background-color: #2B9DC1;
+    color: #fff;
+}
+
+.forrelease-1st-container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    gap: 50px;
+    background-color: #004e65;
+    border-radius: 10px;
+    width: 1100px;
+    height: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.forrelease-1st-container-header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.forrelease-1st-container-header-title-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
+.forrelease-list {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 1280px;
+    gap: 15px;
+}
+
+.release-request-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    border-radius: 8px;
+}
+
+.release-request-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 1170px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.release-request-summary.expanded {
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.control-number {
+    font-weight: 800;
+    min-width: 150px;
+    color: #004e65;
+    padding-left: 15px;
+}
+
+.test-results-summary {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.release-btn, .reject-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.release-btn {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    background-color: #2BC192;
+    color: white;
+    width: 90px;
+    border: 2px solid #2BC192;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.release-btn:hover {
+    border: 2px solid #2BC192;
+    background-color: #fff;
+    color: #2BC192;
+}
+
+.reject-btn {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    background-color: #E85557;
+    color: white;
+    width: 90px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.reject-btn:hover {
+    border: 2px solid #E85557;
+    background-color: #fff;
+    color: #E85557;
+}
+
+.request-details {
+    padding: 50px 15px 15px;
+    margin-top: -35px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 0.9em;
+    width: 1170px;
+    z-index: 0;
+}
+
+.test-results-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.microbio-results,
+.chemical-results,
+.molbio-results {
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.result-item {
+    padding-left: 25px;
+}
+
+.microbio-summary,
+.chem-summary,
+.molbio-summary {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.microbio-summary {
+    background-color: #2B9DC1;
+}
+
+.chem-summary {
+    background-color: #5CAFCA;
+}
+
+.molbio-summary {
+    background-color: #88BFD1;
+}
+
+.result-line-1 {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 50px 0 110px;
+}
+
+.result-line-2 {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 50px 0 110px;
+}
+
+.result-line-3 {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 50px 0 110px;
+}
+
+.result-line-4 {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 50px 0 50px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    color: #004e65;
+}
+
+.result-item strong {
+    color: #6c8e98;
+    font-weight: 500;
+    margin-right: -90px
+}
+
+.result-value {
+    white-space: nowrap;
+}

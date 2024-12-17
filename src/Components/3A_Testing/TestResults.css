@@ -1,0 +1,317 @@
+.testresults-all-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.testresults-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1800px;
+    height: 805px;
+    margin-top: 7vh;
+    border-radius: 10px;
+    background-color: #ffffffb5;
+}
+
+.testresults-title {
+    display: flex;
+    align-items:baseline;
+    font-weight: 700;
+    font-size: 64px;
+    color: #004e65;
+}
+
+.testresults-popup {
+    display: inline-block;
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 52px;
+    font-weight: bold;
+    position: relative;
+}
+
+.popup-container {
+    position: absolute;
+    top: 3px;
+    right: -210px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(-10px); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none; 
+    font-size: 14px;
+    width: 150px;
+}
+
+.testresults-popup:hover .popup-container {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.testresults-1st-container {
+    display: flex;
+    align-items: center;
+    width: 850px;
+    height: 566px;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.testresults-2nd-container {
+    display: flex;
+    align-items: center;
+    width: 850px;
+    height: 566px;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.testresults-1st-container {
+    background-color: #1ebaba79;
+    cursor: grab;
+}
+
+.testresults-1st-container h2, .testresults-2nd-container h2 {
+    color: #ffffff;
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.testresults-2nd-container {
+    background-color: #2bc19279;
+    cursor: grab;
+}
+
+
+.empty-4th-container {
+    width: 790px;
+    height: 400px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.empty-4th-container img {
+    margin-top: -20px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: -5px;
+}
+
+.testresults-1st-container-column-row {
+    display: flex;
+    gap: 10px;
+}
+
+.testresults-1st-container-column-row input {
+    text-align: center;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 100px;
+    border: none;
+    background-color: #2B9DC1;
+    color: #fff;
+}
+
+.testresults-1st-container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    gap: 50px;
+    background-color: #004e65;
+    border-radius: 10px;
+    width: 1100px;
+    height: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.testresults-1st-container-header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.testresults-1st-container-header-title-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
+.testresults-list, .released-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 850px;
+    gap: 15px;
+}
+
+.release-testresults-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.release-testresults-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004e65;
+    padding: 15px;
+    width: 760px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+    gap: 20px;
+    z-index: 1;
+}
+
+.release-testresults-summary.expanded {
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.control-number {
+    font-weight: 800;
+    min-width: 150px;
+    color: #004e65;
+    padding-left: 15px;
+}
+
+.test-results-summary {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.testresults-details {
+    padding: 50px 15px 15px;
+    margin-top: -35px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 0.9em;
+    width: 758px;
+    z-index: 0;
+}
+
+.test-results-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.microbio-results,
+.chemical-results,
+.molbio-results {
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.result-item {
+    padding-left: 25px;
+}
+
+.microbio-summary,
+.chem-summary,
+.molbio-summary {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.microbio-summary {
+    background-color: #2B9DC1;
+}
+
+.chem-summary {
+    background-color: #5CAFCA;
+}
+
+.molbio-summary {
+    background-color: #88BFD1;
+}
+
+.result-line-1 {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 50px 0 110px;
+}
+
+.result-line-2 {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 50px 0 110px;
+}
+
+.result-line-3 {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 50px 0 110px;
+}
+
+.result-line-4 {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 50px 0 50px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    color: #004e65;
+}
+
+.result-item strong {
+    color: #6c8e98;
+    font-weight: 500;
+    margin-right: -90px
+}
+
+.result-value {
+    white-space: nowrap;
+}
+
+.testresults-cont {
+    display: flex;
+    gap: 30px;
+}

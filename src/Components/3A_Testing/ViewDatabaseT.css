@@ -1,0 +1,210 @@
+.db-all-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.db-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1780px; 
+    margin-top: 6.5vh;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    background-color: #ffffffb5;
+    overflow: hidden;
+}
+
+.db-tables {
+    overflow: hidden;
+    height: 650px;
+}
+
+.db-tables-1 {
+    overflow: hidden;
+    height: 650px;
+}
+
+
+.db-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #004e65;
+    margin: 20px 0 0;
+}
+
+.db-1st-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1900px; /* Fixed width */
+    height: 603px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.db-1st-container-column-row {
+    display: flex;
+    gap: 10px;
+}
+
+.db-1st-container-column-row input {
+    text-align: center;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 100px;
+    border: none;
+    background-color: #2B9DC1;
+    color: #fff;
+}
+
+.blue-error-icon {
+    display: block;
+    margin: 0 auto 20px;
+    height: 374px;
+}
+
+.msg-noreqres1 {
+    color: #2B9DC1;
+    margin-bottom: -20px;
+}
+
+.msg-noreqres2 {
+    color: #2B9DC1;
+    margin-bottom: -2px;
+}
+
+.request-row {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    border: 2px solid #004e65; /* Outer border for the table */
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #e0e0e0; /* Borders between cells */
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.data-table th {
+    background-color: #004e65;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.data-table tbody tr {
+    background-color: white;
+}
+
+.data-table tbody tr:hover {
+    background-color: #f5f5f5; /* Hover effect for rows */
+}
+
+.data-table .total-header {
+    border-right: 2px solid #004e65; /* Distinct border for month and total columns */
+}
+
+.data-table .month-header {
+    border-right: 1px solid #fff; 
+}
+.data-table .result-header {
+    background-color: #2B9DC1;
+    color: white;
+    font-weight: 600;
+}
+
+.data-table .total-cell {
+    background-color: #f0f9fc;
+    font-weight: 600;
+    border-left: 2px solid #004e65; /* Distinct border for total column */
+}
+
+.table-container {
+    width: 1690px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.table-wrapper-1 {
+    width: 1700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.db-tables {
+    overflow: auto;
+}
+
+.db-tables::-webkit-scrollbar {
+    width: 10px;
+}  
+
+.db-tables::-webkit-scrollbar-thumb {
+    background-color: #2b9ec16f;
+    border-radius: 100px;
+}
+  
+.db-tables::-webkit-scrollbar-thumb:hover {
+    background-color: #2B9DC1;
+    cursor: pointer;
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #577680;
+    margin: -20px 0;
+    padding-left: 15px;
+}
+
+.db-content {
+    margin-bottom: -20px;
+}
+
+.popup-container-1 {
+    position: absolute;
+    top: 3px;
+    right: -210px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(-10px); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none; 
+    font-size: 14px;
+    width: 160px;
+}
+
+.testresults-popup:hover .popup-container-1 {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
