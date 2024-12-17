@@ -1,0 +1,130 @@
+.font-link {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+  }
+
+.forget-all-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+    gap: 140px;
+    caret-color: transparent;
+}
+
+.forget-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 8%;
+    justify-content: center;
+    align-items: center;   
+    width: 470px;
+    height: 700px;
+    background: #ffffffb5;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.f-c-container{
+    color:#2B9DC1;
+    font-weight: 700;
+    margin-top: 41px;
+    margin-bottom: 245px;
+    margin-left: 30px;
+}
+
+.f-c-c-forgetyourpassword {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    margin-bottom: -20px;
+}
+
+.f-c-c-text {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    padding-top: 30px;
+    margin-bottom: -23px;
+}
+
+.email-forget{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.forget-input input{
+    caret-color: auto;
+    height: 50px;
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #004e65;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.forget-input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 408px;
+    height: 70px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 4px solid #95CFE1;
+}
+
+.forget-input input[type="password"]::-ms-reveal {
+    display: none;
+}
+
+.forget-input input::placeholder {
+    color:#004d65a3;
+}
+
+.forget-last-row-text {
+    display: flex;
+}
+
+.forget-text {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B9DC1;
+    margin-bottom: 18px;
+    padding: 5px 10px;
+}
+
+.forget-text:hover {
+    color:#ffffff;
+    border-radius: 12px;
+    background: #2B9DC1;
+}
+
+.all-right-first-row {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    color: white;
+}
+
+.center::after {
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+
+.center:hover::after{
+    transform: scale(1,2);
+}

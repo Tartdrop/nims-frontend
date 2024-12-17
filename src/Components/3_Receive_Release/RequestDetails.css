@@ -1,0 +1,144 @@
+.s-c-a-r-c-e-s-n-co-o-input-shown {
+    margin: 10px 50px 0;
+    gap: 10px;
+}
+
+.s-c-a-r-title {
+    display: flex;
+    align-items: center;
+}
+
+.s-c-a-r-t-back {
+    cursor: pointer;
+    padding-right: 30px;
+    color: #004e65;
+    transition: color 0.3s ease;
+}
+
+.s-c-a-r-t-back:hover {
+    color: #2B9DC1;
+}
+
+.submit-review-text-button {
+    font-weight: 700;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 85px;
+    background-color: #2B9DC1;
+    border-radius: 100px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.submit-review-text-button img {
+    width: 100px;
+}
+
+.s-c-a-r-c-e-s-n-c-notes-req {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.request-details-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px;
+    gap: 30px;
+}
+
+.approve-review-text-button, .reject-review-text-button {
+    border: none;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 
+        color 0.3s ease,
+        background-color 0.3s ease
+}
+
+.approve-review-text-button {
+    height: 70px;
+    width: 490px;
+    background-color: #2BC192;
+}
+
+.approve-review-text-button:hover {
+    height: 70px;
+    width: 490px;
+    color: #2BC192;
+    background-color: #ffffff;
+    border: 4px solid #2BC192;
+}
+
+.reject-review-text-button {
+    height: 70px;
+    width: 490px;
+    background-color: #E85557;
+}
+
+.reject-review-text-button:hover {
+    height: 70px;
+    width: 490px;
+    color: #E85557;
+    background-color: #ffffff;
+    border: 4px solid #E85557;
+}
+
+.submit-show-filled {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+    padding-left: 55px;
+    color: #004e65;
+    gap: 10px;
+    max-height: 165px;
+    overflow-y: auto;
+}
+
+.s-c-a-r-t-requestdetailspopup {
+    display: inline-block;
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 52px;
+    font-weight: bold;
+    position: relative;
+}
+
+.s-c-a-r-t-rdp-container {
+    position: absolute;
+    top: -2px;
+    right: -204px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(-10px); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none; 
+    font-size: 12px;
+    width: 150px;
+}
+
+.s-c-a-r-t-requestdetailspopup:hover .s-c-a-r-t-rdp-container {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
